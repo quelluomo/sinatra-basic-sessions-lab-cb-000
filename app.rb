@@ -7,7 +7,6 @@ class App < Sinatra::Base
     set: session_secret, "poba"
 
     get '/' do
-      @session = session
       erb :index
     end
 
