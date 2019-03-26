@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
   configure do
     enable :sessions
-    set: session_secret, "poba"
+    set :session_secret, "poba"
   end
 
     get '/' do
